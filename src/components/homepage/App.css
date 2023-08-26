@@ -1,0 +1,57 @@
+#homepage-container-1 {
+    height: 65rem;
+    width: 100%;
+}
+
+#homepage-container-2 {
+    height: 15rem;
+    width: 100%;
+    background-color: #2d313d;
+}
+
+#button-1 {
+    background-color: #2d313d;
+}
+
+#logo-navbar-item {
+    border-radius: 2rem black 2rem;
+}
+
+#homepage-icon {
+    height: 5rem;
+    width: 5rem;
+}
+
+#homepage-icon-glasses {
+    height: 40rem;
+    width: 60rem;
+}
+
+#arrow{
+    position: relative;
+    left: 55rem;
+}
+
+/* The navigation bar */
+#navbar {
+    overflow: hidden;
+    position: fixed; 
+    top: 0;
+    height: 6rem;
+    background-color: azure;
+    width: 100%; 
+    z-index: 9999;
+  }
+  
+  /* Links inside the navbar */
+#navbar a {
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+#main {
+    margin-top: 30px;
+  }

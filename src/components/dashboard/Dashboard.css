@@ -1,0 +1,26 @@
+#dashboard-container-1 {
+    height: 20rem;
+    width: 100%;
+}
+
+#dashboard-container-2 {
+    height: 50rem;
+}
+
+#dashboard-item-1 {
+    height: 10rem;
+    width: 35rem;
+    position: relative;
+    top: 5rem;
+    left: 5rem;
+}
+
+#dashboard-item-2 {
+    height: 42rem;
+    width: 25rem;
+}
+
+#dashboard-item-3 {
+    height: 38rem;
+    width: 70rem;
+}

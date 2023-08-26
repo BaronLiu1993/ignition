@@ -1,0 +1,21 @@
+#course-container {
+    height: 30rem;
+    width: 100%;
+}
+
+#card-course {
+    height: 10rem;
+    width: 20rem;
+}
+
+#card-icons {
+    position: absolute;
+    left: 11rem;
+    top: 89rem;
+}
+
+#course-container-2 {
+    height: 55rem;
+    width: 100%;
+    background-color: #2d313d;
+}
