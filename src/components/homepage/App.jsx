@@ -67,7 +67,7 @@ function App() {
       <div id = 'homepage-container-2' className = 'bg-gray-800 shadow-2xl'> 
         <div className = 'flex justify-center p-10 shadow-2xl'>
           <div className = 'flex'>
-            <div id = 'homepage-icon' className = 'm-5 bg-gradient-to-r from-yellow-50 to-yellow-100 rounded-lg'>
+            <div id = 'homepage-icon' className = 'm-5 bg-white rounded-lg'>
               <img src = {Book}/>
             </div>
             <div>
@@ -76,7 +76,7 @@ function App() {
             </div>
           </div>
           <div className = 'flex'>
-            <div id = 'homepage-icon' className = 'm-5 bg-gradient-to-r from-yellow-50 to-yellow-100 rounded-lg'>
+            <div id = 'homepage-icon' className = 'm-5 bg-white rounded-lg'>
               <img src = {Gear}/>
             </div>
             <div>
@@ -85,7 +85,7 @@ function App() {
             </div>
           </div>
           <div className = 'flex'>
-            <div id = 'homepage-icon' className = 'm-5 bg-gradient-to-r from-yellow-50 to-yellow-100 rounded-lg'>
+            <div id = 'homepage-icon' className = 'm-5 bg-white rounded-lg'>
               <img src = {Teacher}/>
             </div>
             <div>
