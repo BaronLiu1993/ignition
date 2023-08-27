@@ -1,5 +1,5 @@
 #dashboard-container-1 {
-    height: 20rem;
+    height: 30rem;
     width: 100%;
 }
 
@@ -15,7 +15,7 @@
     height: 10rem;
     width: 35rem;
     position: relative;
-    top: 5rem;
+    top: 12rem;
     left: 5rem;
 }
 
