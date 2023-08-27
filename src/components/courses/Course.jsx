@@ -3,6 +3,7 @@ import './Course.css'
 import Meta from './meta.png'
 import Duke from './duke.png'
 import Stanford from './stanford.png'
+import { BrowserRouter as Router, Route, Link, Routes } from 'react-router-dom';
 
 function Course() {
   return (
@@ -74,7 +75,7 @@ function Course() {
                   <div className = 'py-6'>
                   orem ipsum dolor sit amet, consectetur adispiscing elit, <br /> sed do eiusmod temporidunt ut labore veniam
                   </div>
-                  <button className = 'ring-4 ring-black pl-8 pr-8 pt-2 pb-2 rounded-xl hover:bg-black hover:text-white'>Join</button>
+                  <Link to = "/dashboard"><button className = 'ring-4 ring-black pl-8 pr-8 pt-2 pb-2 rounded-xl hover:bg-black hover:text-white'>Join</button></Link>
               </div>
             </div>
           </div>

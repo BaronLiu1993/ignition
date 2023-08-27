@@ -1,0 +1,46 @@
+#textbook-container-1 {
+    height: 40rem;
+}
+
+#navbar {
+    overflow: hidden;
+    position: fixed; 
+    top: 0;
+    height: 6rem;
+    background-color: azure;
+    width: 100%; 
+    z-index: 9999;
+  }
+
+#textbook-container-items {
+    position: relative;
+    top: 20rem;
+    height: 10rem;
+    width: 50rem;
+    margin-left: 10rem;
+
+}
+
+#textbook-items-1 {
+    height: 50rem;
+    width: 100rem;
+}
+
+#textbook-items-2 {
+    height: 70rem;
+    width: 50rem;
+    position: relative;
+    bottom: 13rem;
+}
+
+#white-cover {
+    height: 18rem;
+    width: 50rem;
+    position: relative;
+    left: 77rem;
+}
+
+#textbook-items-3 {
+    height: 15rem;
+    width: 45rem;
+}

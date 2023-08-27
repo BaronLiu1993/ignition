@@ -19,8 +19,8 @@ function Dashboard() {
 
   return (
     <>
-      <div id = 'dashboard-container-1' className = 'bg-gradient-to-r from-orange-200 to-orange-300'>
-        <div id = 'dashboard-item-1' className = 'flex flex-col justify-top items-center rounded-3xl bg-gradient-to-r from-red-200 to-red-100'>
+      <div id = 'dashboard-container-1' className = 'bg-gradient-to-r from-blue-200 to-indigo-300'>
+        <div id = 'dashboard-item-1' className = 'flex flex-col pl-5 pt-4 ring-4 ring-indigo-400 rounded-3xl bg-gray-400'>
           <div className = 'text-7xl font-extrabold'>Course 1</div>
           <div className = 'text-3xl font-bold '>BBC123</div>
         </div>
@@ -32,12 +32,11 @@ function Dashboard() {
             <a><img className = 'mr-5 mt-1' src = {Syllabus}/></a>
             <div className = 'font-bold text-3xl'>Syllabus</div>
           </div>
-          <button onClick={handleButtonClickAgain} className = 'font-extrabold transform duration: 500 hover:scale-105 text-4xl m-5 p-5 hover:bg-red-200 hover:opacity-75 hover:shadow-lg rounded-2xl'>1 .Topic 1</button>
-          <button onClick={handleButtonClick} className = 'font-extrabold transform duration: 500 hover:scale-105 text-4xl m-5 p-5 hover:bg-red-200 hover:opacity-75 hover:shadow-lg rounded-2xl'>1 .Topic 1</button>
-          <button className = 'font-extrabold transform duration: 500 hover:scale-105 text-4xl m-5 p-5 hover:bg-red-200 hover:opacity-75 hover:shadow-lg rounded-2xl'> 1. Topic 1</button>
+          <button onClick={handleButtonClickAgain} className = 'font-extrabold transform duration: ml-10 500 hover:underline hover:scale-105 text-4xl p-5 hover:bg-indigo-200 hover:opacity-75 hover:shadow-lg rounded-2xl'>1 .Topic 1</button>
+          <button onClick={handleButtonClick} className = 'font-extrabold transform duration: 500 ml-10 hover:underline hover:scale-105 text-4xl p-5 hover:bg-indigo-200 hover:opacity-75 hover:shadow-lg rounded-2xl'>1 .Topic 1</button>
+          <button className = 'font-extrabold transform duration: 500 hover:scale-105 text-4xl hover:underline ml-10 p-5 hover:bg-indigo-200 hover:opacity-75 hover:shadow-lg rounded-2xl'> 1. Topic 1</button>
         </div>
-        
-        {showEvent ? <Topic1 /> : <Topic2 />}
+        {showEvent ? <Topic2 /> : <Topic1 />}
       </div>
     </>
   )
